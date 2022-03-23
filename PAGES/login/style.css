@@ -2,20 +2,24 @@
     background-color: #ff589b;
     border-radius: 10px;
     margin-top: 15px;
+    color: white;
 }
 
 #login{
     background-color: #ff7845;
     border-radius: 10px;
+    color: white;
+    margin-top: 30px;
 }
 
 #facebook{
     background-color: #25a6ff;
     border-radius: 10px;
     margin-top: 15px;
+    color: white;
 }
 .vh-100{
-    background-image: url(./images/toys.jpg);
+    background-image: url(./images/toys\ 9.webp);
 }
 #facebook:hover{
     background-color: lightskyblue;
@@ -28,6 +32,6 @@
 #login:hover{
     background-color: lightsalmon;
 }
-.fb-logo{
-    
+.logo-login{
+   
 }
