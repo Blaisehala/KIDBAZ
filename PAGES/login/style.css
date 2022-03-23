@@ -1,37 +1,49 @@
 #google{
     background-color: #ff589b;
     border-radius: 10px;
-    margin-top: 15px;
     color: white;
+    padding: 8px 65px;
 }
 
 #login{
     background-color: #ff7845;
     border-radius: 10px;
     color: white;
-    margin-top: 30px;
+    padding: 8px 128px;
+    
 }
 
 #facebook{
     background-color: #25a6ff;
     border-radius: 10px;
-    margin-top: 15px;
+    padding: 8px 60px;
     color: white;
+    margin-top: 10px;
 }
 .vh-100{
     background-image: url(./images/toys\ 9.webp);
+    background-size: cover;
 }
 #facebook:hover{
     background-color: lightskyblue;
+    cursor: pointer;
 }
 
 #google:hover{
-    background-color: lightpink;
+    background-color: rgb(230, 68, 181);
+    cursor: pointer;
 }
 
 #login:hover{
-    background-color: lightsalmon;
+    background-color: rgb(235, 112, 64);
+    cursor: pointer;
 }
-.logo-login{
-   
+.form-check-label{
+   font-size: 15px;
+   padding-left: 15px;
 }
+
+.form-check-input{
+    cursor: pointer;
+}
+ 
