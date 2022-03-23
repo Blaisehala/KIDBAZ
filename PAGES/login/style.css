@@ -1,7 +1,33 @@
 #google{
-    background-color: #ff7845;
+    background-color: #ff589b;
+    border-radius: 10px;
+    margin-top: 15px;
 }
 
 #login{
+    background-color: #ff7845;
+    border-radius: 10px;
+}
+
+#facebook{
     background-color: #25a6ff;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.vh-100{
+    background-image: url(./images/toys.jpg);
+}
+#facebook:hover{
+    background-color: lightskyblue;
+}
+
+#google:hover{
+    background-color: lightpink;
+}
+
+#login:hover{
+    background-color: lightsalmon;
+}
+.fb-logo{
+    
 }
