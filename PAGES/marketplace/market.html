@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +18,10 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <!-- css -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="market.css">
 
 </head>
+
 <body>
   <div class="container-fluid  parse">
     <article>
@@ -40,8 +42,7 @@
 
                     <div class="input-group mb-3 mt-5"><input type="text" class="form-control input-text "
                         placeholder="search products ...">
-                      <div class="input-group-append"><button class="btn  btn-lg" type="button"
-                          name="search"></button>
+                      <div class="input-group-append"><button class="btn  btn-lg" type="button" name="search"></button>
 
                       </div>
 
@@ -51,7 +52,7 @@
                   <div class="col mt-5">
                     <a href=""><button class="filter">DONATE</button></a>
                   </div>
-                  
+
 
                 </div>
 
@@ -71,7 +72,7 @@
 
   <!-- NAVBAR GOES HERE -->
   <nav>
-    
+
     <div>
       <ul class="nav-menu">
         <li>Home</li>
@@ -84,76 +85,122 @@
 
   </nav>
 
- <!-- MAIN BODY   -->
+  <!-- MAIN BODY   -->
   <div class="container-fluid  parse mt-5">
 
     <article>
       <!-- STICKY ITEM  -->
       <div class="row">
 
-
-
-        <div class="col-5">
+        <div class="col">
 
           <div class="sidebar-item">
             <div class="make-me-sticky">
-              <div class="ro">
-                <div class="col-lg-1">
+              <div class="row">
+                <div class="col-lg-12 p-3">
                   <div class="stick-header">
-                    <h3>product</h3>
+                    <h3 class="catego">product categories</h3>
                   </div>
+
                   <div>
                     <input type="checkbox">Boys
-                    <input type="checkbox">Boys
+                  </div>
+
+                  <div>
                     <input type="checkbox">Girls
+                  </div>
+
+                  <div>
                     <input type="checkbox">Age & Size
-                    <input type="checkbox">0 - 12 months
-                    <input type="checkbox">1-4 y.o
-                    <input type="checkbox">4-8 y.o
-
                   </div>
 
-
-                </div>
-
-                <div class="col-lg-1">
-                  <div class="stick-header">
-                    <h3>Swap Price</h3>
-                  </div>
                   <div>
-                    <input type="checkbox">Boys
-
-                    <h5></h5>
-                    <input type="range"><br><br>
-                    <a href=""><button class="filter">FILTER</button></a>
-
+                    <input type="checkbox"> 0 - 12 months
                   </div>
 
-
-                </div>
-
-                <div class="col-1">
-                  <div class="stick-header">
-                    <h3>Brand</h3>
-                  </div>
                   <div>
-                    <input type="checkbox">Boys
-                    <input type="checkbox">Boys
-                    <input type="checkbox">Girls
+                    <input type="checkbox"> 1 - 4 y.o
+                  </div>
+
+                  <div>
+                    <input type="checkbox"> 4 - 8 y.o
                   </div>
 
 
                 </div>
-
-
 
               </div>
+
+
+              <div class="row">
+                <div class="col-lg-12 p-3">
+                  <div class="stick-header">
+                    <h3 class="catego">Range</h3>
+                  </div>
+
+                  <div>
+                    <p>$: <span id="demo"></span></p>
+                  </div>
+
+                  <div class="slidecontainer">
+                    <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+                   
+                  </div>
+                  <br>
+                  <div>
+                    <a href=""><button class="filter">filter</button></a>
+                  </div>
+
+
+
+
+                </div>
+
+              </div>
+
+
+              <div class="row">
+                <div class="col-lg-12 p-3">
+                  <div class="stick-header">
+                    <h3 class="catego">Brands</h3>
+                  </div>
+
+                  <div>
+                    <input type="checkbox">Bershka
+
+
+                  </div>
+
+                  <div>
+                    <input type="checkbox">H&M
+                  </div>
+
+                  <div>
+                    <input type="checkbox"> Zara
+                  </div>
+
+                  <div>
+                    <input type="checkbox"> 0 - 12 months
+                  </div>
+
+
+                </div>
+
+              </div>
+
+
+
+
+
+
+
 
             </div>
           </div>
 
 
         </div>
+
 
 
         <!-- MARKETPLACE HOLDER BEGINS -->
@@ -204,7 +251,7 @@
                     src="https://images.unsplash.com/photo-1599623560574-39d485900c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                     alt="Card image" style="width:100%">
                   <div class="card-body">
-                     <h4 class="card-title">Truck</h4> 
+                    <h4 class="card-title">Truck</h4>
                     <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
                       Playing with others is good for developing better social interactionsr</p> -->
                     <a href="#" class="filter">Swap</a>
@@ -443,7 +490,7 @@
     </article>
 
     <hr>
-   
+
 
   </div>
 
@@ -453,10 +500,8 @@
 
         <img src="/images/logo.svg" alt=""><br><br>
         <p>We swap high-quality toys, books and valuables <br>for kids of any age.</p><br>
-        <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/fb.svg"
-          alt="">
-        <img
-          src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/instagram.svg"
+        <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/fb.svg" alt="">
+        <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/instagram.svg"
           alt="">
         <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/youtube.svg"
           alt="">
@@ -465,7 +510,7 @@
       </div>
 
       <div class="col-lg-2">
-       <p class="quicklinks">Quick Links</p>
+        <p class="quicklinks">Quick Links</p>
         <p>– About</p>
         <p>– Shop</p>
         <p>– Delivery</p>
@@ -475,7 +520,7 @@
       </div>
 
       <div class="col-lg-2">
-       <p class="quicklinks">Help</p>
+        <p class="quicklinks">Help</p>
         <p>– FAQs</p>
         <p>– Delivery</p>
         <p>– Payments</p>
@@ -495,11 +540,17 @@
       </div>
       <div class="col-lg-2">
         <p class="quicklinks">Contacts</p>
-        <p class="number"> <ion-icon name="call"></ion-icon>0100-100-161</p>
-        <p><ion-icon name="pin"></ion-icon>124 Souths Rohnha Suited 21,<br>
-           Kahawa, NRB</p>
-        <p class="number2"><ion-icon name="mail"></ion-icon>kidbaz@info.co.ke</p>
-       
+        <p class="number">
+          <ion-icon name="call"></ion-icon>0100-100-161
+        </p>
+        <p>
+          <ion-icon name="pin"></ion-icon>124 Souths Rohnha Suited 21,<br>
+          Kahawa, NRB
+        </p>
+        <p class="number2">
+          <ion-icon name="mail"></ion-icon>kidbaz@info.co.ke
+        </p>
+
 
       </div>
 
@@ -508,9 +559,8 @@
 
   </footer>
 
-  <title>Document</title>
-</head>
-<body>
-  
+  <script src="market.js"></script>
+
 </body>
+
 </html>
