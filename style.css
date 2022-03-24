@@ -140,6 +140,10 @@ nav{
 
 /* GISTED */
 
+.gisted{
+  height: 100vh;
+}
+
 .discount{
   background-image: url(https://thumbs.gfycat.com/WhisperedEllipticalCow-size_restricted.gif);
 }

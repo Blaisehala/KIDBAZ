@@ -35,7 +35,9 @@ number{
   font-weight: bolder;
 
 }
-
+.papa{
+  background-color: #25a6ff;
+}
 .number:hover{
   color:gray;
 
@@ -97,7 +99,7 @@ nav{
    margin: 20px ;
    color: white;
    font-family: "Fredoka One", Sans-serif; 
-   font-size: 25px;
+   font-size: 20px;
     font-weight: 800;
 }
 
@@ -110,4 +112,23 @@ nav{
   padding: 5px;
      
 
+}
+
+
+.infoinfo{
+  color: #2c4862;
+  font-family: "Fredoka One", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+}
+
+.lane{
+  color: #5b7186;
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
 }
