@@ -64,3 +64,26 @@
    border-style: none;
    width: 200px;
 }
+.vh-100{
+    background-image: url(./images/toy10.webp);
+    background-size: cover;
+}
+
+#register{
+    background-color: #ff7845;
+    padding: 8px 176px;
+    border-radius: 10px;
+    color: white;
+}
+
+#register:hover{
+    background-color: #ffa17e;
+}
+
+.form-check-input{
+    cursor: pointer;
+}
+.logo{
+    font-size: 16px;
+
+}
